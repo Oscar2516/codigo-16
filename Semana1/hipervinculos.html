@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Semana1/Dia3</title>
+    </head>
+    <body>
+        <!--la etiqueta para hacer hipervinculos es es la <a>-->
+        <img src="./images/taza de javascript.png" width="800" alt="Imágen de la taza de JAVASCRIPT">
+        <!--Si queremos que el enlace o hipervicnulo se abra en otra pagina se debe usar el atributo target _blank-->
+        <a href="https://www.youtube.com/" target="_blank">Link hacia YT</a>
+
+        <a href="https://www.google.com" target="_blank">
+            <img src="./images/png-transparent-google-logo-google-text-trademark-logo.png" width="400" alt="Logo de Google">
+        </a>
+        <br>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="./images/facebook logo png sin fondo.png" width="400" alt="Logo de facebook">
+        </a>
+        <br>
+        <!--insertando videos-->
+        <div>
+            <video controls autoplay muted loop width="800"><source src="./videos/video.mp4"></video>
+        </div>
+
+        <div>
+            <!--Un botón a diferencia de un hipervinculo (<a>) no redirecciona a otra página, su
+                proposito es realizar una acción. Por ejemplo: Enviar datos, validar formulario, abriri modales-->
+            
+                <!--UN botón trabaja sobre evento:
+                click, este evento  para poder llamarlo en hmtl debemos llamarlo onclick=""-->
+                <!--!!NOTA: onclick es todo en minuscula-->
+                <button onclick="console.log('Hola desde el botón')">Imprimir algo</button>
+        </div>
+    </body>
+</html>
